@@ -48,3 +48,41 @@ A key part of this project was the iterative model improvement process:
 ---
 
 ## Project Structure
+.
+├── dataset/ # Contains all the training and validation images
+├── saved_model/
+│ └── solar_panel_model_final.h5 # The final, trained Keras model
+├── scripts/
+│ └── app.py # The Streamlit application source code
+├── model.ipynb # Jupyter Notebook with the full model training process
+├── packages.txt # System-level dependencies for deployment
+└── requirements.txt # Python library requirements
+
+
+---
+
+## Local Setup and Usage
+To run this application on your local machine, follow these steps:
+
+**Clone the repository:**
+```bash
+git clone https://github.com/jerw04/SolarPanel_Defect_Detection.git
+cd SolarPanel_Defect_Detection
+```
+Create and activate a virtual environment:
+```bash
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+```
+Install the required libraries:
+```bash
+pip install -r requirements.txt
+```
+Run the Streamlit app:
+```bash
+streamlit run scripts/app.py
+```
+
