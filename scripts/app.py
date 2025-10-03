@@ -12,7 +12,7 @@ st.set_page_config(page_title="SolarGuard", page_icon="☀️", layout="wide")
 # If you run 'streamlit run app.py' from the 'scripts' folder, the path is correct.
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('../saved_model/solar_panel_model_final.h5')
+    model = tf.keras.models.load_model('saved_model/solar_panel_model_final.h5')
     return model
 
 model = load_model()
