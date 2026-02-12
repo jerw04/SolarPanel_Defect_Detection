@@ -3,17 +3,11 @@ import tensorflow as tf
 from PIL import Image
 import numpy as np
 import os
-from training.utils import preprocess_image
-import sys
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 
 # --- CONFIGURATIONS ---
 st.set_page_config(page_title="SolarGuard", page_icon="☀️", layout="wide")
 
 # --- MODEL PATH HANDLING ---
-# Get absolute path relative to this file
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "..", "saved_model", "solar_panel_model_final.h5")
 
