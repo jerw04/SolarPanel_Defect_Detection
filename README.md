@@ -1,7 +1,8 @@
-# SolarGuard: AI-Powered Solar Panel Defect Detection
-➡️ [View the Live Application Here!](#)
+# ☀️ SolarGuard: AI-Powered Solar Panel Defect Detection
 
-> *(https://solarpaneldefectdetection-7be8jqggtpdpc58dubxopu.streamlit.app/)*
+➡️ **[View the Live Application Here!](https://solarpaneldefectdetection-fynaxwyrqudbxv3quftajx.streamlit.app/)**
+
+---
 
 ---
 
